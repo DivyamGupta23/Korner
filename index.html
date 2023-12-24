@@ -59,9 +59,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/builds.loader.js";
       var config = {
-        dataUrl: buildUrl + "/builds.data.br",
-        frameworkUrl: buildUrl + "/builds.framework.js.br",
-        codeUrl: buildUrl + "/builds.wasm.br",
+        dataUrl: buildUrl + "/builds.data",
+        frameworkUrl: buildUrl + "/builds.framework.js",
+        codeUrl: buildUrl + "/builds.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Divyam",
         productName: "Korner",
@@ -98,7 +98,7 @@
         canvas.style.height = "648px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/builds.jpg.br') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/builds.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
